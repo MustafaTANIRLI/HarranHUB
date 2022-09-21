@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnaSayfa.MenuSayfalari.HesapMakinesi">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/display"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="@string/hesap_tap_here"
+            android:inputType="none"
+            android:textAlignment="textEnd"
+            android:autofillHints="false"/>
+
+        <ImageButton
+            android:id="@+id/backclear"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:src="@drawable/hesap_sil_tus2_foreground"
+            android:onClick="anybutton"
+            />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/clear_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:onClick="anybutton"
+                android:text="C"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/parantez_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:onClick="anybutton"
+                android:text="()"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/us_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:onClick="anybutton"
+                android:text="^"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/bolme_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:onClick="anybutton"
+                android:text="÷"
+                android:textSize="25dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/seven_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="anybutton"
+                android:text="7"
+                android:textSize="25dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"/>
+
+            <Button
+                android:id="@+id/eight_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="anybutton"
+                android:text="8"
+                android:textSize="25dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"/>
+
+            <Button
+                android:id="@+id/nine_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:onClick="anybutton"
+                android:text="9"
+                android:textSize="25dp"
+                tools:text="9" />
+
+            <Button
+                android:id="@+id/carp_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="anybutton"
+                android:text="X"
+                android:textSize="25dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/four_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="anybutton"
+                android:text="4"
+                android:textSize="25dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"/>
+
+            <Button
+                android:id="@+id/five_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="anybutton"
+                android:text="5"
+                android:textSize="25dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"/>
+
+            <Button
+                android:id="@+id/six_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="anybutton"
+                android:text="6"
+                android:textSize="25dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"/>
+
+            <Button
+                android:id="@+id/eksi_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="anybutton"
+                android:text="-"
+                android:textSize="25dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/one_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="anybutton"
+                android:text="1"
+                android:textSize="25dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"/>
+
+            <Button
+                android:id="@+id/two_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="anybutton"
+                android:text="2"
+                android:textSize="25dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"/>
+
+            <Button
+                android:id="@+id/three_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="anybutton"
+                android:text="3"
+                android:textSize="25dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"/>
+
+            <Button
+                android:id="@+id/topla_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="anybutton"
+                android:text="+"
+                android:textSize="25dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/threeZero_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="anybutton"
+                android:text="000"
+                android:textSize="25dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"/>
+
+            <Button
+                android:id="@+id/zero_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="anybutton"
+                android:text="0"
+                android:textSize="25dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"/>
+
+            <Button
+                android:id="@+id/dat_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="anybutton"
+                android:text="."
+                android:textSize="25dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"/>
+
+            <Button
+                android:id="@+id/equal_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="anybutton"
+                android:text="="
+                android:textSize="25dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/sin_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="anybutton"
+                android:text="sın"
+                android:textSize="25dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"/>
+
+            <Button
+                android:id="@+id/cos_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="anybutton"
+                android:text="COS"
+                android:textSize="25dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"/>
+
+            <Button
+                android:id="@+id/log_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:onClick="anybutton"
+                android:text="ln"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/kok_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="anybutton"
+                android:text="kok"
+                android:textSize="25dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"/>
+        </TableRow>
+
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

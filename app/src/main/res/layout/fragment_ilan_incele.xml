@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="35dp"
+    tools:context=".AnaSayfa.TabSayfalar.Ilanlar.IlanIncele">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Başlık"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ilanBaslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_border"
+                android:text="BAŞLIK"
+                android:textSize="35sp"
+                android:padding="5dp"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="59dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İÇERİK"
+                android:textSize="20sp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/ilanIcerik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_border"
+                android:padding="5dp"
+                android:text="ICERIK"
+
+                android:textSize="25sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

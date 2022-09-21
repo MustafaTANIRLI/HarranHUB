@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".AnaSayfa.MenuSayfalari.Oyun.OyunBittiSayfa">
+
+    <TextView
+        android:id="@+id/oyunBittiTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="102dp"
+        android:text="OYUN BİTTİ"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/score_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="199dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="192dp"
+        android:text="0"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oyunBittiTextView" />
+
+    <TextView
+        android:id="@+id/maxScoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="173dp"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toEndOf="@+id/enYuksekLabelTextView"
+        app:layout_constraintTop_toTopOf="@+id/enYuksekLabelTextView" />
+
+    <TextView
+        android:id="@+id/enYuksekLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="77dp"
+        android:gravity="center"
+        android:text="EN YÜKSEK PUAN"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.374"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/score_textView" />
+
+    <TextView
+        android:id="@+id/seninSkorun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="SENİN PUANIN"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/score_textView"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oyunBittiTextView" />
+
+    <Button
+        android:id="@+id/reStart_btn"
+        android:layout_width="152dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="102dp"
+        android:text="TEKRAR DENE"
+        android:textColor="#6DD4E6"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maxScoreTextView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

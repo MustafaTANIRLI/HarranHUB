@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mtk00/.gradle/caches/transforms-3/46006dc1d407a9b818eb3aaf424fbca6/transformed/core-1.7.0/res/layout-v21/notification_action.xml" value="0.20625" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/drawable-anydpi-v24/ic_notif_icon2.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/drawable/cardViewTest_foreground.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/drawable/harran_logo_background.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/drawable/hesap_sil_tus2_foreground.xml" value="0.3828125" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/drawable/hesap_sil_tus_foreground.xml" value="0.3203125" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/drawable/hub_logo2_background.xml" value="0.32685185185185184" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/drawable/hub_logo_background.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/drawable/ic_arac_dir_logo_foreground.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/drawable/ic_arac_foreground.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/drawable/ic_plus_logo_foreground.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/drawable/ic_walk_dir_logo_foreground.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/drawable/ic_yemekhaneTus2_foreground.xml" value="0.221875" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/drawable/ic_yemekhanetus3_foreground.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/drawable/ic_yemekhanetus_foreground.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/drawable/textview_border.xml" value="0.1" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout-land/fragment_oyun_ana_sayfa.xml" value="0.4635416666666667" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout-land/fragment_oyun_bitti_sayfa.xml" value="0.4635416666666667" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/activiti_hesap_makinesi.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/activity_giris_ekrani.xml" value="0.2" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/activity_oyun.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/activity_oyun_ana.xml" value="0.1" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/activity_oyun_sonu.xml" value="0.2" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/ana_sayfa.xml" value="0.20364583333333333" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/ana_sayfa_nav_header.xml" value="0.33" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/fragment_giris.xml" value="0.33" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/fragment_h_u_b.xml" value="0.32038834951456313" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/fragment_haruzem.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/fragment_hesap_makinesi.xml" value="0.2046875" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/fragment_ilan_gonder.xml" value="0.25" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/fragment_ilan_incele.xml" value="0.33" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/fragment_ilanlar.xml" value="0.1" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/fragment_kayit.xml" value="0.33" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/fragment_map.xml" value="0.18" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/fragment_o_b_s.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/fragment_oyun_ana_sayfa.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/fragment_oyun_bitti_sayfa.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/fragment_oyun_oyna_sayfa.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/fragment_sifremi_unuttum.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/fragment_uni_duyurular.xml" value="0.20625" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/fragment_view_pager_sayfasi.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/fragment_webview_layout.xml" value="0.19375" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/fragment_yandex.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/fragment_yemekhane.xml" value="0.2" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/gps.xml" value="0.22" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/gps_navheader.xml" value="0.5" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/ilanlistesi_ilan.xml" value="0.1" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/oyun_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/layout/webview_layout.xml" value="0.20625" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/menu/anasayfamenu.xml" value="0.5" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/menu/gpsslidermenu.xml" value="0.1" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/bildirim_logo_round.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/cardViewTest.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/harran_logo.xml" value="0.3828125" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/harran_logo_round.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/hesap_sil_tus.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/hesap_sil_tus_round.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/hub_logo.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/hub_logo2.xml" value="0.32685185185185184" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/ic_app_logo.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/ic_arac.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/ic_har_app_logo_round.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/ic_har_logo.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/ic_har_logo2.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/ic_har_logo2_round.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/ic_har_logo3.xml" value="0.3828125" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/ic_har_logo3_round.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/ic_har_logo4.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/ic_plus_logo.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/ic_plus_logo_round.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/ic_walk_dir_logo.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/ic_walk_dir_logo_round.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/ic_yemekhanetus.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/ic_yemekhanetus3.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/ic_yemekhanetus3_round.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/mtk00/AndroidStudioProjects/HarranHub/app/src/main/res/mipmap-anydpi-v26/ic_yemekhanetus_round.xml" value="0.22239583333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2046875" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

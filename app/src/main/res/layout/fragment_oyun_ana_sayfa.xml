@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".AnaSayfa.MenuSayfalari.Oyun.OyunAnaSayfa">
+
+    <ImageView
+        android:id="@+id/oyun_karakter_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="166dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/anakarakter" />
+
+    <ImageView
+        android:id="@+id/kucuk_dolar_image_view"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="191dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oyun_karakter_imageView"
+        app:srcCompat="@drawable/dollar" />
+
+    <TextView
+        android:id="@+id/kucuk_dolar_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="176dp"
+        android:text="20 TL"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toEndOf="@+id/kucuk_dolar_image_view"
+        app:layout_constraintTop_toTopOf="@+id/kucuk_dolar_image_view" />
+
+    <ImageView
+        android:id="@+id/buyuk_dolar_image_view"
+        android:layout_width="51dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="191dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kucuk_dolar_image_view"
+        app:srcCompat="@drawable/box" />
+
+    <TextView
+        android:id="@+id/ucret2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="175dp"
+        android:text="100 TL"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toEndOf="@+id/buyuk_dolar_image_view"
+        app:layout_constraintTop_toTopOf="@+id/buyuk_dolar_image_view" />
+
+    <ImageView
+        android:id="@+id/oyun_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="191dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buyuk_dolar_image_view"
+        app:srcCompat="@drawable/siyahkare" />
+
+    <TextView
+        android:id="@+id/siyah_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="175dp"
+        android:text="basarsan ölürsün"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.798"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/oyun_imageview" />
+
+    <Button
+        android:id="@+id/start_btn"
+        android:layout_width="198dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="159dp"
+        android:text="BAŞLA"
+        android:textColor="#0DEC3D"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oyun_imageview" />
+
+    <Button
+        android:id="@+id/oyun_cikis_button"
+        android:layout_width="109dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="88dp"
+        android:text="Çıkış"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/start_btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

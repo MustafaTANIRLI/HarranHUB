@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1001763701677",
+    "firebase_url": "https://harranhub-default-rtdb.firebaseio.com",
+    "project_id": "harranhub",
+    "storage_bucket": "harranhub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001763701677:android:bbedab14dcb053407c9724",
+        "android_client_info": {
+          "package_name": "com.example.harranhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001763701677-raaam1epoo6rm4a5g998g5rjbcsft04b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.harranhub",
+            "certificate_hash": "6fc20a8cf9fcba1c03429763911ff0afea8ef96a"
+          }
+        },
+        {
+          "client_id": "1001763701677-u773apcpditqg4or0m1ddqu4qi6g9grl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD71Y3njVZwekOygOPCwrSrGRBxUuVAN8w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001763701677-u773apcpditqg4or0m1ddqu4qi6g9grl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

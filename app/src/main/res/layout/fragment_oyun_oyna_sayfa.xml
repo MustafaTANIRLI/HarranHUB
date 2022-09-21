@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/cl"
+android:background="@color/white"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".AnaSayfa.MenuSayfalari.Oyun.OyunOynaSayfa">
+
+<TextView
+    android:id="@+id/puan_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="174dp"
+    android:layout_marginTop="21dp"
+    android:layout_marginEnd="179dp"
+    android:text="0"
+    android:textColor="#FFFFFF"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<ImageView
+    android:id="@+id/maincharacter"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:srcCompat="@drawable/anakarakter"
+    tools:layout_editor_absoluteX="4dp"
+    tools:layout_editor_absoluteY="251dp" />
+
+<ImageView
+    android:id="@+id/yellow"
+    android:layout_width="57dp"
+    android:layout_height="32dp"
+    app:srcCompat="@drawable/dollar"
+    tools:layout_editor_absoluteX="16dp"
+    tools:layout_editor_absoluteY="21dp" />
+
+<ImageView
+    android:id="@+id/pink"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    app:srcCompat="@drawable/box"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="71dp" />
+
+<ImageView
+    android:id="@+id/black"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:srcCompat="@drawable/siyahkare"
+    tools:layout_editor_absoluteX="4dp"
+    tools:layout_editor_absoluteY="129dp" />
+
+<TextView
+    android:id="@+id/call_1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="179dp"
+    android:layout_marginEnd="174dp"
+    android:layout_marginBottom="67dp"
+    android:text="oyuna başlamak için tıkla"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ana_sayfa_graph"
+    app:startDestination="@id/girisFragment">
+    <fragment
+        android:id="@+id/uniDuyurular"
+        android:name="com.example.harranhub.AnaSayfa.MenuSayfalari.UniDuyurular"
+        android:label="fragment_uni_duyurular"
+        tools:layout="@layout/fragment_webview_layout" />
+    <fragment
+        android:id="@+id/yemekhane"
+        android:name="com.example.harranhub.AnaSayfa.MenuSayfalari.Yemekhane"
+        android:label="fragment_yemekhane"
+        tools:layout="@layout/fragment_webview_layout" />
+    <fragment
+        android:id="@+id/viewPagerSayfasi"
+        android:name="com.example.harranhub.AnaSayfa.TabSayfalar.ViewPagerSayfasi"
+        android:label="fragment_view_pager_sayfasi"
+        tools:layout="@layout/fragment_view_pager_sayfasi" >
+        <action
+            android:id="@+id/action_viewPagerSayfasi_to_uniDuyurular"
+            app:destination="@id/uniDuyurular"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"
+            />
+        <action
+            android:id="@+id/action_viewPagerSayfasi_to_yemekhane"
+            app:destination="@id/yemekhane"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_viewPagerSayfasi_to_GPS"
+            app:destination="@id/GPS"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_viewPagerSayfasi_to_ilanIncele"
+            app:destination="@id/ilanIncele"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_viewPagerSayfasi_to_ilanGonder"
+            app:destination="@id/ilanGonder"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_viewPagerSayfasi_to_hesapMakinesi"
+            app:destination="@id/hesapMakinesi"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_viewPagerSayfasi_to_haruzem"
+            app:destination="@id/haruzem"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_viewPagerSayfasi_to_OBS2"
+            app:destination="@id/OBS"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_viewPagerSayfasi_to_oyunActivity"
+            app:destination="@id/oyunActivity"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <activity
+        android:id="@+id/GPS"
+        android:name="com.example.harranhub.AnaSayfa.MenuSayfalari.GPS"
+        android:label="GPS" />
+    <fragment
+        android:id="@+id/ilanIncele"
+        android:name="com.example.harranhub.AnaSayfa.TabSayfalar.Ilanlar.IlanIncele"
+        android:label="fragment_ilan_incele"
+        tools:layout="@layout/fragment_ilan_incele" />
+    <fragment
+        android:id="@+id/ilanGonder"
+        android:name="com.example.harranhub.AnaSayfa.TabSayfalar.Ilanlar.IlanGonder"
+        android:label="fragment_ilan_gonder"
+        tools:layout="@layout/fragment_ilan_gonder" />
+    <activity
+        android:id="@+id/hesapMakinesi"
+        android:name="com.example.harranhub.AnaSayfa.MenuSayfalari.HesapMakinesi"
+        android:label="activiti_hesap_makinesi"
+        tools:layout="@layout/activiti_hesap_makinesi" />
+    <fragment
+        android:id="@+id/haruzem"
+        android:name="com.example.harranhub.AnaSayfa.MenuSayfalari.Haruzem"
+        android:label="fragment_haruzem"
+        tools:layout="@layout/fragment_webview_layout" />
+    <fragment
+        android:id="@+id/OBS"
+        android:name="com.example.harranhub.AnaSayfa.MenuSayfalari.OBS"
+        android:label="fragment_o_b_s"
+        tools:layout="@layout/fragment_webview_layout" />
+    <activity
+        android:id="@+id/oyunActivity"
+        android:name="com.example.harranhub.AnaSayfa.MenuSayfalari.Oyun.OyunActivity"
+        android:label="OyunActivity" />
+    <fragment
+        android:id="@+id/girisFragment"
+        android:name="com.example.harranhub.GirisEkrani.GirisFragment"
+        android:label="fragment_giris"
+        tools:layout="@layout/fragment_giris" >
+        <action
+            android:id="@+id/action_girisFragment_to_viewPagerSayfasi"
+            app:destination="@id/viewPagerSayfasi"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_girisFragment_to_sifremiUnuttum2"
+            app:destination="@id/sifremiUnuttum2"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_girisFragment_to_kayitFragment"
+            app:destination="@id/kayitFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/kayitFragment"
+        android:name="com.example.harranhub.GirisEkrani.KayitFragment"
+        android:label="fragment_kayit"
+        tools:layout="@layout/fragment_kayit" />
+    <fragment
+        android:id="@+id/sifremiUnuttum2"
+        android:name="com.example.harranhub.GirisEkrani.SifremiUnuttum"
+        android:label="fragment_sifremi_unuttum"
+        tools:layout="@layout/fragment_sifremi_unuttum" />
+</navigation>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnaSayfa.TabSayfalar.Ilanlar.IlanGonder">
+
+    <EditText
+        android:id="@+id/ilanBaslikGonderText"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/textview_border"
+        android:ems="10"
+        android:hint="BAŞLIK"
+        android:padding="5dp"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ilanIcerikGonderText"
+        android:layout_width="317dp"
+        android:layout_height="241dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint=" ICERIK"
+        android:inputType="textMultiLine"
+        android:textSize="25sp"
+        android:padding="5dp"
+        android:background="@drawable/textview_border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ilanBaslikGonderText" />
+
+    <Button
+        android:id="@+id/ilanGonderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Gonder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ilanIcerikGonderText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

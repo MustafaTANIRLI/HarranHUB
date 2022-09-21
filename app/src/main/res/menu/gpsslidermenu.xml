@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <item
+        android:orderInCategory="100"
+        android:title="Osman Bey kampüsü"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/egitimfakutesi"
+                android:orderInCategory="100"
+                android:title="Eğitim fakültesi"
+                app:showAsAction="never" />
+
+
+            <item
+                android:id="@+id/fenedebiyat"
+                android:orderInCategory="100"
+                android:title="Fen Edebiyat Fakültesi"
+                app:showAsAction="never"
+                />
+
+            <item
+                android:id="@+id/ilahiyatfakutesi"
+                android:orderInCategory="100"
+                android:title="İlahiyat fakültesi"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/muhendislikfakultesi"
+                android:orderInCategory="100"
+                android:title="Muhendislik fakültesi "
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/tipfakultesi"
+                android:orderInCategory="100"
+                android:title="Tıp Fakültesi"
+                app:showAsAction="never"
+                />
+
+
+
+
+
+
+
+            <item
+                android:id="@+id/ziraatfakutesi"
+                android:orderInCategory="100"
+                android:title="Ziraat fakültesi"
+                app:showAsAction="never" />
+
+        </menu>
+    </item>
+
+
+    <item
+        android:orderInCategory="100"
+        android:title="Yurtlar"
+        app:showAsAction="never">
+        <menu>
+
+            <item
+                android:id="@+id/gobeklitepeyurdu"
+                android:orderInCategory="100"
+                android:title="Göbekli Tepe Erkek Yurdu"
+                app:showAsAction="never" />
+
+
+            <item
+                android:id="@+id/haceranakizyurdu"
+                android:orderInCategory="100"
+                android:title="Hacer Ana Kız Yurdu"
+                app:showAsAction="never" />
+
+
+            <item
+                android:id="@+id/harrankizyurdu"
+                android:orderInCategory="100"
+                android:title="Harran Kız Yurdu"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+    <item android:title="Diğer"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        >
+        <menu>
+
+            <item
+                android:id="@+id/merkezikafeterya"
+                android:orderInCategory="100"
+                android:title="Yemekhane"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/kutuphane"
+                android:orderInCategory="100"
+                android:title="El-Battani Kütüphanesi "
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/cami"
+                android:orderInCategory="100"
+                android:title="Osman Bey Camisi "
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/yasammerkezi"
+                android:orderInCategory="100"
+                android:title="Öğrenci Yaşam Merkezi "
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/a101"
+                android:orderInCategory="100"
+                android:title="A-101 "
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/harranarastirma"
+                android:orderInCategory="100"
+                android:title="Harran araştırma ve uygulama hastanesi "
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/sosyaltesis"
+                android:orderInCategory="100"
+                android:title="Sosyal Tesisler "
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/yuzmehavuzu"
+                android:orderInCategory="100"
+                android:title="Yüzme Havuzu "
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+
+
+
+</menu>

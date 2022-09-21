@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.harranhub">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+        </intent>
+    </queries>
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HarranHub">
+        <receiver
+            android:name=".AnaSayfa.BildirimAlici"
+            android:enabled="true"
+            android:exported="true">
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAqNbK8guUQhaRl9MpSJdqNEv_rrFHj2QQ" />
+
+        <activity
+
+            android:name=".AnaSayfa.AnaSayfa"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.HarranHub.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter></activity>
+        <activity
+            android:name=".AnaSayfa.MenuSayfalari.GPS"
+            android:exported="false"
+            android:theme="@style/Theme.HarranHub.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".AnaSayfa.MenuSayfalari.HesapMakinesi"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".AnaSayfa.MenuSayfalari.Oyun.OyunActivity"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+
+    </application>
+
+
+</manifest>
